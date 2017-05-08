@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Teal"
+
+    tools:context="com.example.android.loginscreen.MainActivity">
+    
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif-thin"
+        android:includeFontPadding="true"
+        android:text="@string/email"
+        android:textSize="@dimen/text_size"
+        android:textStyle="normal"
+        android:inputType="textEmailSubject"
+        android:layout_centerHorizontal="true"
+
+        android:background="@color/White"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="@dimen/text_size"
+        android:text="@string/password"
+        android:fontFamily="sans-serif-thin"
+
+        android:textStyle="normal"
+        android:background="@color/White"
+        android:inputType="text"
+        android:layout_below="@+id/email"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/White"
+        android:text="LOGIN"
+        android:textStyle="normal"
+        android:textColor="@color/Teal"
+        android:fontFamily="sans-serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/password"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member?Sign up now."
+        android:textColor="@color/White"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/login_button"
+
+        />
+</RelativeLayout>

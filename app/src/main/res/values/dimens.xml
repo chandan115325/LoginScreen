@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_width">350dp</dimen>
+    <dimen name="edit_text_height">30dp</dimen>
+    <dimen name="margin">20dp</dimen>
+    <dimen name="text_size">12sp</dimen>
+</resources>
